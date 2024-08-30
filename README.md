@@ -33,4 +33,4 @@ Este é um aplicativo web simples para gerar senhas aleatórias com característ
 
 4. Acessar o Projeto
 
-`http://localhost:3000`
+`http://localhost:3000` ou `https://mtrebecca.github.io/Password-Generator/`
