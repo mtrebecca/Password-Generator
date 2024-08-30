@@ -3,41 +3,17 @@
 @import 'layout/container';
 @import 'components/buttons';
 @import 'components/input';
+@import 'components/range';
+@import 'components/checkbox';
+@import 'components/slider';
+@import 'components/toast';
 
 body {
-    background-color: #0F021B;
+    background-color: $color-background-secondary;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    font-family: 'Roboto', sans-serif;
-}
-
-.title {
-    color: #FD58FF;
-    font-size: 37px;
-}
-
-.heading {
-    color: #FFFFFF;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 42.2px;
-    text-align: center;
-    margin-top: 16px;
-}
-
-.subheading {
-    color: #FFFFFF;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28.13px;
-    text-align: center;
-    margin-top: 8px;
-}
-
-.container {
-    text-align: center;
-    height: 80vh;
+    font-family: $font-primary;
 }

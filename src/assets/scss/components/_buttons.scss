@@ -1,9 +1,36 @@
-button {
-    background-color: $color-background-primary;
-    color: white;
+@import '../utils/variables';
+
+.button-container {
+    position: absolute;
+    right: 7%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 30px;
+    z-index: 1;
+
+    button {
+        background-color: transparent;
+        color: $color-text-white;
+        border: none;
+        padding: 0;
+        cursor: pointer;  
+    
+        img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+}
+
+.copy-bottom {
+    background-color: $color-border;
+    color: $color-background-secondary;
+    font-size: 22px;
+    border-radius: 2px;
+    padding: 10px 12px;
     border: none;
-    padding: 8px;
-    border-radius: 4px;
+    font-family: $font-primary;
+    margin-top: 2rem;
     cursor: pointer;
-    font-size: 1rem;    
 }

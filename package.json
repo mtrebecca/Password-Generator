@@ -6,7 +6,8 @@
     "scripts": {
         "build-js": "webpack",
         "build-css": "sass src/assets/scss/styles.scss dist/css/styles.css",
-        "build": "npm run build-js && npm run build-css"
+        "build": "npm run build-js && npm run build-css",
+        "start": "npm run build && lite-server"
     },
     "author": "",
     "license": "ISC",

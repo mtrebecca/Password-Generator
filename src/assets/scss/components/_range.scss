@@ -1,0 +1,52 @@
+@import '../utils/variables';
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  background: $color-input-background;
+  border-radius: 4px;
+  margin-bottom: 25px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 8px;
+  border-radius: 4px;
+  background: $color-input-background;
+}
+
+input[type="range"]::-moz-range-track {
+  height: 8px;
+  border-radius: 4px;
+  background: $color-input-background;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: $color-text-white;
+  border: 2px solid $color-text-white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -6px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  background: $color-text-white;
+  border: 2px solid $color-text-white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -6px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #ffffff, #ffffff) no-repeat;
+  background-size: var(--slider-progress-width) 100%;
+}
+
+input[type="range"]::-moz-range-track {
+  background: linear-gradient(to right, #ffffff, #ffffff) no-repeat;
+  background-size: var(--slider-progress-width) 100%;
+}

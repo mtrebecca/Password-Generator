@@ -1,0 +1,42 @@
+@import '../utils/variables';
+
+.strength-bar {
+    position: relative;
+    height: 32px;
+    background-color: $color-input-background;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.strength-fill {
+    height: 100%;
+    width: 0;
+    background-color: transparent;
+    transition: width 0.3s;
+}
+
+.strength-labels {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.strength-labels span {
+    font-size: 20px;
+    color: $color-label;
+}
+
+.strength-weak .strength-fill {
+    width: 33.33%;
+    background-color: $color-red;
+}
+
+.strength-medium .strength-fill {
+    width: 66.66%;
+    background-color: $color-warning;
+}
+
+.strength-strong .strength-fill {
+    width: 100%;
+    background-color: $color-success;
+}
