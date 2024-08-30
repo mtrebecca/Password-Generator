@@ -34,3 +34,14 @@
     margin-top: 2rem;
     cursor: pointer;
 }
+
+@media (max-width: 798px) {
+    .button-container {
+        gap: 15px;
+
+        button img {
+            width: 15px;
+            height: 15px;
+        }
+    }
+}

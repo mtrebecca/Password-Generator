@@ -87,12 +87,15 @@ h2 {
 }
 
 @media (max-width: 798px) {
-    .content-all-child {
-        flex-direction: column;
-        gap: 15px;
-
-        .content-child {
-            width: 100% !important;
+    .container {
+        width: 100%;
+        .content-all-child {
+            flex-direction: column;
+            gap: 15px;
+    
+            .content-child {
+                width: 100% !important;
+            }
         }
     }
 }
