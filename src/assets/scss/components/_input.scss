@@ -1,0 +1,31 @@
+.generator {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input[type="text"] {
+        width: 100%;
+        max-width: 1089px;
+        height: 111px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background: $color-input-background;
+        color: $color-text-white;
+        text-align: center;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    button {
+        background: $color-border;
+        border: none;
+        color: $color-text-white;
+        padding: 10px 20px;
+        margin: 5px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+}

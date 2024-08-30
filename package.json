@@ -1,0 +1,25 @@
+{
+    "name": "password-generator",
+    "version": "1.0.0",
+    "description": "Gerador de senhas com controle de características e força da senha",
+    "main": "index.js",
+    "scripts": {
+        "build-js": "webpack",
+        "build-css": "sass src/assets/scss/styles.scss dist/css/styles.css",
+        "build": "npm run build-js && npm run build-css"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "css-loader": "^6.7.1",
+        "lite-server": "^2.6.1",
+        "sass": "^1.32.13",
+        "sass-loader": "^12.1.0",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.64.4",
+        "webpack-cli": "^4.9.1"
+    },
+    "dependencies": {
+        "autoprefixer": "^10.4.20"
+    }
+}
