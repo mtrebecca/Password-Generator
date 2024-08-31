@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #0F021B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
 h1,
 h2 {
   color: #FFFFFF;
@@ -356,16 +366,6 @@ input[type=range]::-moz-range-track {
 .toast.show {
   visibility: visible;
   opacity: 1;
-}
-
-body {
-  background-color: #0F021B;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  font-family: "Roboto", sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
