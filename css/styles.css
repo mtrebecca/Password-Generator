@@ -143,10 +143,17 @@ h2 {
   cursor: pointer;
 }
 
-@media (max-width: 798px) {
+@media (max-width: 1168px) {
   .button-container {
-    gap: 15px;
+    gap: 12px;
+    right: 3%;
   }
+  .button-container button img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (max-width: 768px) {
   .button-container button img {
     width: 15px;
     height: 15px;
@@ -175,6 +182,11 @@ h2 {
   margin-bottom: 10px;
   position: relative;
 }
+@media (max-width: 1168px) {
+  .generator input[type=text] {
+    font-size: 28px;
+  }
+}
 .generator .input-container {
   position: relative;
   width: 100%;
@@ -198,7 +210,10 @@ h2 {
 @media (max-width: 798px) {
   .generator input[type=text] {
     padding: 0 75px;
-    font-size: 13px;
+    font-size: 15px;
+  }
+  .generator .label-password {
+    left: 2%;
   }
 }
 input[type=range] {
