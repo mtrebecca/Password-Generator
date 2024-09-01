@@ -33,10 +33,21 @@
     cursor: pointer;
 }
 
-@media (max-width: 798px) {
+@media (max-width: 1168px) {
     .button-container {
-        gap: 15px;
+        gap: 12px;
+        right: 3%;
 
+        button img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .button-container {
+        
         button img {
             width: 15px;
             height: 15px;
