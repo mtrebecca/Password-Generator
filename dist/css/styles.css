@@ -190,6 +190,7 @@ h2 {
 .generator .input-container {
   position: relative;
   width: 100%;
+  max-width: 1089px;
 }
 .generator .label-password {
   color: #8A87AA;
